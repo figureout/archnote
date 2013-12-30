@@ -79,7 +79,7 @@ class Post_m extends CI_Model{
         $data = array(
             'cid' => $post->cid,
             'title' => $post->title,
-            'author' => 'bstaint',
+            'author' => 'admin',
             'link' => base_url() . 'archives' . '/' . $post->cid . '/',
             'created' => timestamp_to_date($this->time_format,$post->created),
             'content' => $post->text,
@@ -102,7 +102,7 @@ class Post_m extends CI_Model{
             $data[] = array(
                 'cid' => $post->cid,
                 'title' => $post->title,
-                'author' => 'bstaint',
+                'author' => 'admin',
                 'link' => base_url() . ADMIN_DIR . 'edit?type=' . $post->type.'&cid=' . $post->cid,
                 'created' => timestamp_to_date($this->time_format,$post->created),
                 'category' => $this->meta_m->cid_get_metas_html($post->cid,'category'),
