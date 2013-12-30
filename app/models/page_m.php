@@ -76,7 +76,7 @@ class Page_m extends CI_Model{
         $data = array(
             'cid' => $cid,
             'title' => $page->title,
-            'author' => 'bstaint',
+            'author' => 'admin',
             'link' => base_url() . 'pages' . '/' . $page->cid . '/',
             'created' => timestamp_to_date($this->time_format,$page->created),
             'content' => $page->text,
