@@ -59,7 +59,7 @@ class Post_m extends CI_Model{
             $data[] = array(
                 'cid' => $post->cid,
                 'title' => $post->title,
-                'author' => 'bstaint',
+                'author' => 'admin',
                 'link' => base_url() . 'archives' . '/' . $post->cid . '/',
                 'created' => timestamp_to_date($this->time_format,$post->created),
                 'tags' => $this->meta_m->cid_get_metas_html($post->cid),
