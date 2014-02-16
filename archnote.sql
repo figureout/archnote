@@ -98,9 +98,9 @@ INSERT INTO `archnote_options` (`name`, `value`) VALUES
 ('description', 'test'),
 ('keyword', 'test,test2,test3'),
 ('post_list', '5'),
-('site_url', 'http://lnmp/archnote/'),
+('site_url', 'http://localhost/'),
 ('theme', 'twentyten'),
-('title', 'bstaint的博客');
+('title', '我的的博客');
 
 -- --------------------------------------------------------
 
