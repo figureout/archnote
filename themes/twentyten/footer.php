@@ -11,7 +11,7 @@
 </div>
 </div>
 <script type="text/javascript">
-    var duoshuoQuery = {short_name:"archnote"};
+    var duoshuoQuery = {short_name:"*********"};
     (function() {
         var ds = document.createElement('script');
         ds.type = 'text/javascript';ds.async = true;
